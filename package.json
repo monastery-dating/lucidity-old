@@ -1,0 +1,39 @@
+{
+  "name": "lucidity",
+  "version": "0.1.0",
+  "description": "An electron application for live arts, shader fun and game prototypes.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lucidogen/lucidity.git"
+  },
+  "keywords": [
+    "application",
+    "multimedia",
+    "live coding",
+    "art"
+  ],
+  "author": "Gaspard Bucher <gaspard@lucidogen.io> (http://lucidogen.io/)",
+  "bugs": {
+    "url": "https://github.com/lucidogen/lucidity/issues"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "~1.16.2"
+  },
+  "dependencies": {
+    "lucy-app": "^0.1.0",
+    "lucy-boot": "^0.1.0",
+    "lucy-forge": "^0.1.0",
+    "lucy-live": "^0.1.1",
+    "lucy-util": "^0.1.1"
+  },
+  "homepage": "https://github.com/lucidogen/lucidity#readme",
+  "directories": {
+    "test": "test"
+  }
+}
