@@ -1,4 +1,8 @@
+== 0.1.1 2015-09-02
+
+  * Fixed documentation, booting with boot() on lucidity.
+
 == 0.1.0 2015-09-02
 
   * Initial release.
-  * Empty library used as meta package for Lucidity dependencies.
+  * Meta package for Lucidity dependencies.

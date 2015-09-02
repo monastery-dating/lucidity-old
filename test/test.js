@@ -2,7 +2,13 @@
 
 require ( 'chai' )
 .should ()
-const Lucy = require ( '../index' )
+const lucy = require ( '../index' )
+
+const app   = require ( 'lucy-app'   )
+const boot  = require ( 'lucy-boot'  ).boot
+const forge = require ( 'lucy-forge' ) 
+const live  = require ( 'lucy-live'  )
+const util  = require ( 'lucy-util'  )
 
 describe
 ( 'Lucidity'
@@ -10,8 +16,15 @@ describe
   { it
     ( 'should be empty'
     , function ()
-      { Lucy
-        .should.deep.equal ( {} )
+      { lucy
+        .should.deep.equal
+        ( { app
+          , boot
+          , forge
+          , live
+          , util
+          }
+        )
       }
     )
   }
