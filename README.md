@@ -63,5 +63,6 @@ Please fill in issues for the specific libraries, not the meta-package 'lucidity
 
 ## Release History
 
+  * 0.1.2 (2015-09-03) Added lucy-compose and lucy-three.
   * 0.1.1 (2015-09-02) Updated docs.
   * 0.1.0 (2015-09-02) Initial release.
