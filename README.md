@@ -35,6 +35,16 @@ Note: you can install electron with
   npm install -g electron-prebuilt
   ```
 
+## Modules
+
+  * **[lucy-app](http://github.com/lucidogen/lucy-app)** Application runtime and main event loop.
+  * **[lucy-live](http://github.com/lucidogen/lucy-live)** Live coding support.
+  * **[lucy-compose](http://github.com/lucidogen/lucy-compose)** Scene composition.
+  * **[lucy-three](http://github.com/lucidogen/lucy-three)** Scene composition for THREE.js.
+  * **[lucy-forge](http://github.com/lucidogen/lucy-forge)** Minimal component/entity composition to 'mixin' behaviors.
+  * **[lucy-boot](http://github.com/lucidogen/lucy-boot)** Electron application main process management.
+  * **[lucy-util](http://github.com/lucidogen/lucy-util)** Utility library (value smoothing, etc).
+
 ## Tests
 
   ```Shell

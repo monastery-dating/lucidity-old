@@ -1,6 +1,6 @@
 {
   "name": "lucidity",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An electron application for live arts, shader fun and game prototypes.",
   "main": "index.js",
   "license": "MIT",
@@ -22,14 +22,16 @@
     "url": "https://github.com/lucidogen/lucidity/issues"
   },
   "devDependencies": {
-    "chai": "^2.3.0",
-    "mocha": "~1.16.2"
+    "chai": "^3.2.0",
+    "mocha": "^2.3.0"
   },
   "dependencies": {
     "lucy-app": "^0.1.0",
     "lucy-boot": "^0.1.0",
+    "lucy-compose": "^0.1.1",
     "lucy-forge": "^0.1.0",
     "lucy-live": "^0.1.1",
+    "lucy-three": "^0.1.1",
     "lucy-util": "^0.1.1"
   },
   "homepage": "https://github.com/lucidogen/lucidity#readme",

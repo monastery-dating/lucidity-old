@@ -1,3 +1,7 @@
+== 0.1.2 2015-09-03
+
+  * Added lucy-compose and lucy-three.
+
 == 0.1.1 2015-09-02
 
   * Fixed documentation, booting with boot() on lucidity.
